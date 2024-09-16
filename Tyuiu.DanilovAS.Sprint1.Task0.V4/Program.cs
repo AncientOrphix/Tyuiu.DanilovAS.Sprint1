@@ -6,6 +6,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task0.V4
     {
         static void Main(string[] args)
         {
+
             Console.Title = "Спринт #1 | Выполнил: Данилов А. С. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #0                                                               *");
