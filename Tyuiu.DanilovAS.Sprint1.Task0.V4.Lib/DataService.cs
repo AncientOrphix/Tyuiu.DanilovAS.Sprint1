@@ -1,8 +1,8 @@
-﻿//using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.DanilovAS.Sprint1.Task0.V4.Lib
 {
-    public class DataService //:ISprint1Task0V4
+    public class DataService :ISprint1Task0V4
     {
         public double Calculate()
         {
