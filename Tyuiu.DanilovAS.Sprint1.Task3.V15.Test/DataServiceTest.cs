@@ -13,7 +13,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task3.V15.Test
             var v2 = 5;
             var S = 2;
             var T = 54;
-            var res = 52;
+            var res = 488;
             Assert.AreEqual(res, ds.DistanceOverTime(v1,v2,S,T));
 
         }
