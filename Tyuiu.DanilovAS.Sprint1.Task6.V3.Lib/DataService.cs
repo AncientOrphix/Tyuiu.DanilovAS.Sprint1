@@ -2,12 +2,26 @@
 
 namespace Tyuiu.DanilovAS.Sprint1.Task6.V3.Lib
 {
-    public class DataService : ISprint1Task5V3
+    public class DataService : ISprint1Task6V3
     {
-        public int Calculate(int k)
+        public string LastLetterWord(string value)
         {
-            //Вводится в функцию тип данных Int, когда нужен string. Поэтому до фикса пропускаю это задание
-            throw new NotImplementedException();
+            string[] words = value.Split(new char[] { ' ', ',', '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+
+            // Строка для хранения последних букв
+            string lastLetters = "";
+
+            // Итерация по каждому слову
+            foreach (string word in words)
+            {
+                // Проверяем, что слово не пустое
+                if (word.Length > 0)
+                {
+                    // Добавляем последнюю букву слова к результату
+                    lastLetters += word[word.Length - 1];
+                }
+            }
+            return Convert.ToString(lastLetters);
         }
     }
 }

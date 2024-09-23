@@ -30,7 +30,10 @@ namespace Tyuiu.DanilovAS.Sprint1.Task6.V3
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-            // Вводится в функцию тип данных Int, когда нужен string.Поэтому до фикса пропускаю это задание
+
+            Console.Write("Введите строку: ");
+            string str = Console.ReadLine();
+            Console.WriteLine("Ответ: " + ds.LastLetterWord(str));
             Console.ReadKey();
         }
     }

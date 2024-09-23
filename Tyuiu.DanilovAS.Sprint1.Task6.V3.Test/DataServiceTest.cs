@@ -6,10 +6,12 @@ namespace Tyuiu.DanilovAS.Sprint1.Task6.V3.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void CheckLastLetterWord()
         {
             DataService ds = new DataService();
-            // Вводится в функцию тип данных Int, когда нужен string.Поэтому до фикса пропускаю это задание
+            string x = "Сегодня прекрасный солнечный день";
+            string res = "яййь";
+            Assert.AreEqual(res, ds.LastLetterWord(x));
         }
     }
 }
