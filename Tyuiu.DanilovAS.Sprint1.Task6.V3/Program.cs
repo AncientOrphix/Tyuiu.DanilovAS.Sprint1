@@ -11,7 +11,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task6.V3
             Console.Title = "Спринт #1 | Выполнил: Данилов А. С. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Работа со строками класс Sting                                    *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #3                                                              *");
             Console.WriteLine("* Выполнил: Данилов Александр Сергеевич |  ИИПб-24-2                      *");
