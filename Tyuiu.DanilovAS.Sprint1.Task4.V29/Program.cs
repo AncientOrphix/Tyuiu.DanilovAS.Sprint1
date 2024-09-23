@@ -11,7 +11,7 @@ namespace Tyuiu.DanilovAS.Sprint1.Task4.V29
             Console.Title = "Спринт #1 | Выполнил: Данилов А. С. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Создания итогового решения по спринту                             *");
+            Console.WriteLine("* Тема: Класс Math                                                        *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
             Console.WriteLine("* Выполнил: Данилов Александр Сергеевич |  ИИПб-24-2                      *");
